@@ -2,7 +2,6 @@ library("forecast")
 library("stats")
 library("data.table")
 
-setwd("D:/courses/BABI/timeSeries/blrMar25_Apr22/")
 data = read.csv("ts_data/consumeComplaints.csv", stringsAsFactors = F)
 head(data)
 summary(data)
