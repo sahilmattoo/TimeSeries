@@ -1,5 +1,4 @@
 rm(list=ls(all=TRUE))
-setwd("C:/Users/SahilMattoo/Desktop/Udemy/TimeSeries/GLAKES/ARIMA")
 
 library("forecast")
 library("stats")
